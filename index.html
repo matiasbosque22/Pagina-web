@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal - Matías Bosque</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eaf6ff;
+            color: #34495e;
+        }
+        /* ENCABEZADO */
+        header {
+            background-color: #a7d8f5;
+            color: #244761;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        /* MENÚ */
+        nav {
+            background-color: #79c4e8;
+            padding: 18px;
+            text-align: center;
+        }
+        nav a {
+            color: #163b55;
+            text-decoration: none;
+            margin: 12px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: white;
+        }
+        /* CONTENEDOR */
+        .contenedor {
+            max-width: 950px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+        /* SECCIONES */
+        section {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 15px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+        }
+        h2 {
+            color: #3498c5;
+            margin-bottom: 15px;
+        }
+        h3 {
+            color: #477d9c;
+            margin-bottom: 10px;
+        }
+        p {
+            line-height: 1.8;
+        }
+        ul {
+            padding-left: 25px;
+            line-height: 2;
+        }
+        /* ENLACES */
+        .enlaces a {
+            display: inline-block;
+            color: #1685b5;
+            margin: 8px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .enlaces a:hover {
+            color: #55b5e5;
+            text-decoration: underline;
+        }
+        /* INFORMACIÓN ADICIONAL */
+        aside {
+            background-color: #d5efff;
+            padding: 20px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+        }
+        figure {
+            text-align: center;
+            margin: 15px 0;
+        }
+        figcaption {
+            color: #477d9c;
+            margin-top: 10px;
+        }
+        details {
+            background-color: #eaf6ff;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+        }
+        summary {
+            cursor: pointer;
+            font-weight: bold;
+            color: #247ba0;
+        }
+        progress, meter {
+            width: 100%;
+            height: 20px;
+            margin: 10px 0;
+        }
+        /* PIE DE PÁGINA */
+        footer {
+            background-color: #a7d8f5;
+            color: #244761;
+            text-align: center;
+            padding: 25px;
+        }
+    </style>
+</head>
+<body>
+    <!-- ENCABEZADO -->
+    <header>
+        <h1>¡Hola! Soy Matías Bosque</h1>
+        <p>Bienvenido a mi página personal</p>
+    </header>
+    <!-- NAVEGACIÓN -->
+    <nav>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#intereses">Mis intereses</a>
+        <a href="#expectativas">Mis expectativas</a>
+        <a href="#enlaces">Mis enlaces</a>
+    </nav>
+    <!-- CONTENIDO PRINCIPAL -->
+    <main class="contenedor">
+        <!-- SOBRE MÍ -->
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <article>
+                <h3>Mi presentación personal</h3>
+                <p>
+                    Mi nombre es Matías Bosque, tengo 19 años
+                    y vivo en Quito, en el sector de San Carlos.
+                    Me considero una persona curiosa, a la que
+                    le gusta investigar, aprender cosas nuevas
+                    y conocer diferentes temas. Me interesa
+                    descubrir cómo funcionan las cosas y
+                    ampliar mis conocimientos.
+                </p>
+            </article>
+        </section>
+        <!-- INTERESES -->
+        <section id="intereses">
+            <h2>Mis intereses y pasatiempos</h2>
+            <p>Entre las actividades que más me gustan están:</p>
+            <ul>
+                <li>Los videojuegos.</li>
+                <li>Las computadoras y la tecnología.</li>
+                <li>Investigar y aprender cosas nuevas.</li>
+                <li>Conocer cómo funcionan los dispositivos tecnológicos.</li>
+                <li>Salir a correr los sábados.</li>
+            </ul>
+            <figure>
+                <div style="font-size: 65px;">💻 🎮</div>
+                <figcaption>
+                    La tecnología y los videojuegos son
+                    algunos de mis principales intereses.
+                </figcaption>
+            </figure>
+        </section>
+        <!-- EXPECTATIVAS -->
+        <section id="expectativas">
+            <h2>Mis expectativas profesionales</h2>
+            <p>
+                Espero adquirir nuevos conocimientos y desarrollar
+                habilidades que me permitan crecer personal y
+                profesionalmente.
+                Me interesa especialmente el mundo de la tecnología
+                porque es un área que está en constante evolución
+                y ofrece muchas oportunidades para innovar y aprender.
+            </p>
+            <h3>Mi progreso de aprendizaje</h3>
+            <p>Aprendizaje de programación:</p>
+            <progress value="3" max="100"></progress>
+            <p>Mi interés por la tecnología:</p>
+            <meter value="9" min="0" max="10"></meter>
+        </section>
+        <!-- INFORMACIÓN ADICIONAL -->
+        <aside>
+            <h2>Un poco más sobre mí</h2>
+            <details>
+                <summary>¿Qué me gusta hacer?</summary>
+                <p>
+                    Me gusta jugar videojuegos, investigar
+                    sobre tecnología y salir a correr.
+                </p>
+            </details>
+            <details>
+                <summary>¿Cuáles son mis metas?</summary>
+                <p>
+                    Aprender programación, adquirir experiencia
+                    y crecer profesionalmente.
+                </p>
+            </details>
+        </aside>
+        <!-- ENLACES -->
+        <section id="enlaces" class="enlaces">
+            <h2>Mis páginas de interés</h2>
+            <h3>Enlaces externos</h3>
+            <p>Estas son algunas páginas que me gusta visitar:</p>
+            <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">Google</a>
+            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">YouTube</a>
+            <a href="https://www.wikipedia.org" target="_blank" rel="noopener noreferrer">Wikipedia</a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <h3>Enlaces internos</h3>
+            <p>Utiliza estos enlaces para navegar por mi página:</p>
+            <a href="#sobre-mi">Ir a mi presentación</a>
+            <a href="#intereses">Ir a mis intereses</a>
+            <a href="#expectativas">Ir a mis expectativas</a>
+            <a href="#inicio">Volver al inicio</a>
+        </section>
+        <!-- FECHA -->
+        <section>
+            <h2>Fecha de creación</h2>
+            <p>
+                Página creada el
+                <time datetime="2026-11-08">
+                    8 de noviembre de 2026
+                </time>.
+            </p>
+        </section>
+    </main>
+    <!-- PIE DE PÁGINA -->
+    <footer id="inicio">
+        <p>© 2026 Matías Bosque | Mi página personal</p>
+        <p>Gracias por visitar mi página web.</p>
+    </footer>
+</body>
+</html>
